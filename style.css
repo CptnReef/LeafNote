@@ -1,0 +1,50 @@
+body {
+    text-align: left;
+
+}
+
+#application-info {
+    display: flex;
+    color: aquamarine;
+    margin-right: 50%;
+    margin-left: 15%;
+    padding-right: 5%;
+    border-radius: initial;
+    flex-direction: column;
+    justify-items: left;
+}
+
+#data-input {
+    display: flex;
+    display: flex;
+    margin-right: 65%;
+    margin-left: 15%;
+    padding-right: 5%;
+    padding-left: 2%;
+    border: solid;
+    border-radius: initial;
+    flex-direction: row;
+    justify-items: left;
+}
+
+#headline-display {
+    display: flex;
+    margin-right: 40%;
+    margin-left: 40%;
+    padding-bottom: 10%;
+    padding-right: 5%;
+    border: solid;
+    border-style: double;
+    flex-direction: column;
+    text-align: right;
+}
+
+#data-output {
+    display: flex;
+    margin-right: 40%;
+    margin-left: 40%;
+    margin-bottom: 0%;
+    padding-right: 5%;
+    flex-direction: column;
+    justify-content: right;
+} 
