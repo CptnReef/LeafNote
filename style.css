@@ -1,8 +1,3 @@
-body {
-    text-align: left;
-
-}
-
 #application-info {
     display: flex;
     color: aquamarine;
@@ -14,8 +9,11 @@ body {
     justify-items: left;
 }
 
+#app-info {
+    color: grey;
+}
+
 #data-input {
-    display: flex;
     display: flex;
     margin-right: 65%;
     margin-left: 15%;
@@ -29,13 +27,15 @@ body {
 
 #headline-display {
     display: flex;
+    flex-direction: column;
+    overflow: hidden;
     margin-right: 40%;
     margin-left: 40%;
     padding-bottom: 10%;
     padding-right: 5%;
+    padding-bottom: 10%;
     border: solid;
     border-style: double;
-    flex-direction: column;
     text-align: right;
 }
 

@@ -26,17 +26,18 @@ function handleInput() {
 	const fontFamily = inputFamily.value
 	const color = inputColor.value
     const background_color = inputBgColor.value
-    const text_box = inputText.value
+	const text = inputText.value.replace(/\n/g,"<br>")
+
 	// Set the style 
 	display.style.fontSize = fontSize
 	display.style.fontFamily = fontFamily
 	display.style.color = color
     display.style.background_color = background_color
-    display.style.text_box = text_box
+    display.style.text = text
 	// Show the size
 	showSize.innerHTML = fontSize
 	showFont.innerHTML = fontFamily
 	showColor.innerHTML = color
     showBgColor.innerHTML = background_color
-    showText.innerHTML = text_box
+    showText.innerHTML = text
 }
