@@ -12,8 +12,8 @@ const showFont = document.querySelector('#show-font')
 const showColor = document.querySelector('#show-color')
 const showBgColor = document.querySelector('#show-bg-color')
 const showText = document.querySelector('#display')
-// Repeat this for the input and "show" elements
 
+// Repeat this for the input and "show" elements
 inputSize.addEventListener('input', handleInput)
 inputFamily.addEventListener('input', handleInput)
 inputColor.addEventListener('input', handleInput)
@@ -41,3 +41,5 @@ function handleInput() {
     showBgColor.innerHTML = background_color
     showText.innerHTML = text
 }
+
+// Save Text as File
