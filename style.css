@@ -83,6 +83,8 @@ body{
     overflow-wrap: break-word;
     overflow: hidden;
     text-align: left;
+
+    background-color: black;
     
     margin-top: 2.5%;
     margin-right: 5%;
@@ -94,6 +96,4 @@ body{
     border-color: honeydew;
 }
 
-#data-output {
-    display: none;
-} 
+#data-output {display: none;} 
